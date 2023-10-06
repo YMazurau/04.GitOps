@@ -16,4 +16,4 @@ jobs:
       - name: Chech
         uses: actions/checkout@v2
       - name: Run python file
-        run: Hello.py
+        run: python Hello.py
