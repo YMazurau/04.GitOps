@@ -10,9 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install Python
-      - uses: actions/setup-python@v2
+        uses: actions/setup-python@v2
         with:
-        python-version: '3.9'
-      - uses: actions/checkout@v2
+          python-version: '3.9'
+      - name: Chech
+        uses: actions/checkout@v2
       - name: Run python file
-      - run: Hello.py
+        run: Hello.py
