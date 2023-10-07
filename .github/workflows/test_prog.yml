@@ -11,7 +11,5 @@ jobs:
     steps:
     - name: Check
       uses: actions/checkout@v2
-        with:
-          python-version: '3.9'
     - name: Run test
       run: python test_py.py
